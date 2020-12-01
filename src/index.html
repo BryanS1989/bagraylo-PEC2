@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wizards World</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+        <script async src="./scripts/index.js"></script>
+        <link rel="icon" href="./img/favicon.ico" type="image/x-icon" sizes="16x16">
+    </head>
+
+    <body>
+
+        <input type="hidden" name="current-page" value="index">
+
+        <main>
+            <nav id="banner-nav">
+                <h1><a href="./index.html">Wizards World</a></h1>
+                <ul>
+                    <li id="harry"><a class="primary-links" href="./harry-potter.html">Saga Harry Potter</a></li>
+                    <li id="otros"><a class="primary-links" href="./other.html">Otros Libros</a></li>
+                </ul>
+            </nav>
+
+            <article id="category-selectors">
+                <h2>Secciones de libros</h2>
+                <section>
+                    <a class="card-selector" href="./harry-potter.html">
+                        <figure>
+                            <img class="cover-img" src="./img/harry-potter-saga.jpg" alt="Saga Harry Potter">
+                        </figure>
+                        <p>
+                            Saga de Libros Harry Potter
+                        </p>
+                    </a>
+
+                    <p class="section-text">
+                        Harry Potter es una serie de novelas fantásticas escrita por 
+                        la autora británica <a href="#author" class="secondary-links">J. K. Rowling</a>, 
+                        en la que se describen las 
+                        aventuras del joven aprendiz de magia y hechicería Harry Potter 
+                        y sus amigos Hermione Granger y Ron Weasley, durante los años 
+                        que pasan en el Colegio Hogwarts de Magia y Hechicería. 
+                    </p>
+                </section>
+                <section>
+                    <a class="card-selector" href="./other.html">
+                        <figure>
+                            <img class="cover-img" src="./img/other-books.jpg" alt="Saga Harry Potter">
+                        </figure>
+                        <p>
+                            Otros Libros
+                        </p>
+                    </a>
+                    <p class="section-text">
+                        Conoce el resto de libros del mundo mágico creado por
+                        <a href="#author" class="secondary-links">J. K. Rowling</a>, 
+                        dentro de esta sección encontrarás otros 
+                        libros como el famoso "Animales Fantásticos y cómo encontrarlos",
+                        libros relacionados con Quidditch...
+                    </p>
+                </section>
+            </article>
+            <article id="author">
+                <h2>J. K. Rowling</h2>
+                <figure>
+                    <img class="cover-img" src="./img/jk-rowling.jpg" alt="J. K. Rowling">
+                </figure>
+                <p class="section-text">
+                    Joanne Rowling​ (Yate, 31 de julio de 1965), quien escribe bajo 
+                    los seudónimos J. K. Rowling2 y Robert Galbraith, es una escritora, 
+                    productora de cine y guionista británica, conocida por ser la autora 
+                    de la serie de libros Harry Potter, que han superado los quinientos 
+                    millones de ejemplares vendidos.
+                </p>
+                <p class="section-text">
+                    Antes de publicar la primera novela, la editorial Bloomsbury temió 
+                    que los lectores más jóvenes tuvieran reticencia a comprar libros 
+                    escritos por una mujer y le pidieron que utilizase dos iniciales y 
+                    no su nombre de pila.8​ Como no tiene segundo nombre, eligió la letra 
+                    K como su segunda inicial en honor a su abuela paterna Kathleen. 
+                    El nombre Kathleen nunca ha sido parte de su verdadero nombre.​ 
+                    Después de su matrimonio, a menudo utiliza el nombre Joanne Murray 
+                    cuando lleva a cabo asuntos privados.​ Se llama a sí misma Jo, 
+                    diciendo:
+                </p>
+                <blockquote>
+                    Nadie me llamaba Joanne cuando era niña, a menos que 
+                    estuviesen enfadados conmigo
+                </blockquote>
+            </article>
+        </main>
+    </body>
+</html>

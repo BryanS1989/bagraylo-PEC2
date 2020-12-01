@@ -1,0 +1,32 @@
+{
+  "name": "html-css-tools-pec1",
+  "version": "1.0.0",
+  "description": "Pequeño portal de literatura",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build",
+    "parcel:dev": "parcel src/index.html",
+    "parcel:build": "parcel build src/index.html",
+    "clean": "rimraf dist .cache .cache-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanS1989/HTML-CSS-Tools-PEC1.git"
+  },
+  "keywords": [],
+  "author": "Bryan Steven Agray Londoño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanS1989/HTML-CSS-Tools-PEC1/issues"
+  },
+  "homepage": "https://github.com/BryanS1989/HTML-CSS-Tools-PEC1#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^8.1.4",
+    "postcss-modules": "^3.2.2",
+    "rimraf": "^3.0.2"
+  }
+}
