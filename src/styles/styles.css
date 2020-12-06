@@ -57,12 +57,40 @@
 */
 h1 {
     text-align: center;
+    width: 95%;
+    margin-bottom: 3rem;
 }
 
 h1 a {
-    font-size: 12rem;
     color: var(--primary-color);
     text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 a div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 a div span {
+    font-size: 7rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+@media (min-width: 769px) {
+    h1 {
+        width: 60%;
+    }
+
+    h1 a div span {
+        font-size: 12rem;
+    }
 }
 
 h2 {
