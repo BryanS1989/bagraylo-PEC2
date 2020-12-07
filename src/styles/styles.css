@@ -503,3 +503,56 @@ ul.similar-pages li {
         height: 30rem;
     }
 }
+
+
+/*
+    Footer
+*/
+footer {
+    margin: 2rem 0;
+    border-top: 0.3rem solid var(--primary-color);
+    padding: 2rem 0;
+}
+
+footer a {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 95%;
+}
+
+footer a div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+
+footer a div span {
+    font-size: 5rem;
+    color: var(--primary-color);
+}
+
+footer img {
+    clip-path: polygon(
+        50% 0%, 
+        70% 25%, 
+        100% 35%, 
+        80% 65%, 
+        80% 90%, 
+        50% 80%, 
+        20% 90%, 
+        20% 65%, 
+        0% 35%, 
+        35% 25%
+    );
+}
+
+@media (min-width: 769px) {
+    footer a div {
+        flex-flow: row wrap;
+    }
+}
