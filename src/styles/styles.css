@@ -492,6 +492,38 @@ ul.similar-pages li {
     }
 }
 
+/* SVG */
+.sinopsis {
+    text-align: center;
+}
+
+.sinopsis figure{
+    height: 12rem;
+}
+
+svg {
+    fill: var(--secondary-color);
+    display: inline-block;
+    width: 10rem;
+    margin: 0 auto;
+
+    animation-duration: 3s;
+    animation-name: firstAnimation;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes firstAnimation {
+    from {
+        height: 5rem;
+    }
+
+    to {
+        height: 10rem;
+        fill: var(--primary-color);  
+    }
+}
+
 
 /*
     Footer
