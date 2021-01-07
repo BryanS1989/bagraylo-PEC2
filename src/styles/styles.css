@@ -25,6 +25,7 @@
     font-family: 'HarryPotter';
     font-style: normal;
     font-weight: normal;
+    font-display: swap;
     src: local('Harry P Regular'), url('../fonts/HARRYP__.woff') format('woff');
 }
 
