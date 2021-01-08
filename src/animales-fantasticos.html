@@ -166,8 +166,9 @@
                                 ./img/Animales-fantasticos-y-donde-encontrarlos-imagen-1_250.jpg 250w" 
                         sizes="(min-width: 769px) 500px,
                                 250px"
-                        src="./img/Animales-fantasticos-y-donde-encontrarlos-imagen-1_250.jpg"
-                        alt="Newt Scamander" >
+                        data-src="./img/Animales-fantasticos-y-donde-encontrarlos-imagen-1_250.jpg"
+                        alt="Newt Scamander" 
+                        class="lazyload">
                 </figure>
 
                 <figure>
@@ -176,8 +177,9 @@
                                 ./img/Animales-fantasticos-y-donde-encontrarlos-imagen-2_250.jpg 250w" 
                         sizes="(min-width: 769px) 500px,
                                 250px"
-                        src="./img/Animales-fantasticos-y-donde-encontrarlos-imagen-2_250.jpg"
-                        alt="Newt Scamander at building" >
+                        data-src="./img/Animales-fantasticos-y-donde-encontrarlos-imagen-2_250.jpg"
+                        alt="Newt Scamander at building" 
+                        class="lazyload">
                 </figure>
 
                 <figure>
@@ -186,8 +188,9 @@
                                 ./img/Animales-fantasticos-y-donde-encontrarlos-imagen-3_250.jpg 250w" 
                         sizes="(min-width: 769px) 500px,
                                 250px"
-                        src="./img/Animales-fantasticos-y-donde-encontrarlos-imagen-3_250.jpg"
-                        alt="Gellert Grindelwald" >
+                        data-src="./img/Animales-fantasticos-y-donde-encontrarlos-imagen-3_250.jpg"
+                        alt="Gellert Grindelwald" 
+                        class="lazyload">
                 </figure>
             </section>
             <section>
@@ -209,9 +212,12 @@
 
     <footer>
         <a href="./index.html">
-            <img src="./img/footer-img.jpg" alt="Harry Potter, Hermione and Ron">
+            <img data-src="./img/footer-img.jpg" alt="Harry Potter, Hermione and Ron" class="lazyload">
             <div><span>Wizards</span><span>World</span></div>
         </a>
     </footer>
+
+    <script src="./scripts/lazysizes.min.js" async></script>
+
 </body>
 </html>
